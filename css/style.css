@@ -1,0 +1,74 @@
+/* * {
+  margin: 0 auto;
+  padding: 0
+} */
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+}
+
+.bold{
+  font-weight: bold
+}
+
+#wevondLand1 {
+  height: 900px;
+  position: relative;
+}
+#wevondLand1Div {
+  background: url("../img/wevond-land_01.jpg") no-repeat center center;
+  clip-path: polygon(50% 75%, 100% 50%, 100% 0, 0 0, 0 50%);
+  background-size: cover;
+  height: 650px;
+}
+
+#wevondLand1 img {
+  margin: 0 auto;
+  max-width: 75%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 200px
+}
+
+#wevondLand2 {
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#wevondLand2 span {
+  display: block
+}
+#wevondLand2 #text1 {
+  font-size: 2.5vw;
+  text-align: right;
+  margin-right: 10vw;
+}
+#wevondLand2 #text2 {
+  font-size: 2vw;
+  font-style: italic;
+  margin-left: 10vw;
+}
+
+#wevondLand3 {
+  height: 700px;
+  position: relative;
+}
+#wevondLand3Div {
+  background: url("../img/wevond-land_03.jpg") no-repeat center center;
+  clip-path: polygon(50% 15%, 100% 0, 100% 50%, 50% 65%, 0 50%, 0 0);
+  background-size: cover;
+  height: 966px
+}
+
+#wevondLand3 img {
+  margin: 0 auto;
+  z-index: 99;
+  max-width: 65%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
