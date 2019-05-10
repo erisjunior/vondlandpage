@@ -6,31 +6,75 @@
 body{
   font-family: 'Ubuntu', sans-serif;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body a {
+  color:#fff
 }
 
-.bold{
+.bold, b{
   font-weight: bold
 }
 
+#content {
+  flex: 1 0 auto;
+}
+
 #wevondLand1 {
-  height: 900px;
   position: relative;
 }
 #wevondLand1Div {
   background: url("../img/wevond-land_01.jpg") no-repeat center center;
   clip-path: polygon(50% 75%, 100% 50%, 100% 0, 0 0, 0 50%);
   background-size: cover;
-  height: 650px;
+  height: 50vw;
+  /* height: 650; */
+  text-align: right;
 }
 
+#wevondLand1Div a {
+  transition: .5s;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 20px;
+  color:#fff;
+  position: relative;
+  top:30px;
+  background: rgba(255,255,255,.2);
+  border: 2px solid rgba(255,255,255,.6);
+  border-radius: 5px;
+  box-shadow: 2px 3px rgba(255,255,255,.4);
+}
+#wevondLand1Div a:hover {
+  transition: .5s;
+  top: 27px;
+  margin-right: 22px;
+  box-shadow: 4px 6px rgba(255,255,255,.4);
+}
+
+#waves{
+  position: relative;
+  top: -10vw;
+  /* top: -200px; */
+  background: url("../img/detalhes-waves.png") no-repeat center center;
+  background-size: cover;
+  /* height: 300px; */
+  height: 20vw;
+}
 #wevondLand1 img {
   margin: 0 auto;
-  max-width: 75%;
+  /* max-width: 75%; */
+  width: 50vw;
   position: absolute;
   right: 0;
   left: 0;
-  top: 200px
+  /* top: 200px */
+  top: 20vw;
 }
+
+
 
 #wevondLand2 {
   height: 20vw;
@@ -53,15 +97,51 @@ body{
   margin-left: 10vw;
 }
 
+
+
 #wevondLand3 {
-  height: 700px;
   position: relative;
+  /* height: 1000px; */
+  height: 70vw;
 }
 #wevondLand3Div {
-  background: url("../img/wevond-land_03.jpg") no-repeat center center;
-  clip-path: polygon(50% 15%, 100% 0, 100% 50%, 50% 65%, 0 50%, 0 0);
+  background: url("../img/wevond-land_03.2.jpg") no-repeat center center;
+  clip-path: polygon(50% 10%, 100% 0, 100% 50%, 50% 60%, 0 50%, 0 0);
   background-size: cover;
-  height: 966px
+  height: 100vw;
+  /* height: 1700px; */
+}
+
+#wevondLand3Text {
+  width: 50%;
+  margin: 0 auto;
+  z-index: 99;
+  /* margin-top: 350px; */
+  margin-top: 20vw;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start
+}
+#wevondLand3Text span {
+  display:block;
+}
+#wevondLand3Text #text1 {
+  align-self: center;
+  font-size: 3vw;
+  text-align: center;
+}
+#wevondLand3Text ul {
+  align-self: flex-start
+}
+#wevondLand3Text #text2, ul li {
+  font-size: 1.5vw;
+  text-align: left;
+  font-style: italic;
 }
 
 #wevondLand3 img {
@@ -71,4 +151,213 @@ body{
   position: absolute;
   right: 0;
   left: 0;
+}
+
+
+
+#wevondLand4 {
+  height: 55vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#wevondLand4 img {
+  z-index: 99;
+  width: 40vw;
+}
+#wevondLand4Text{
+  text-align: right;
+  width: 30%
+}
+#text1{
+  font-size: 2.5vw;
+}
+#text2,#text3 {
+  font-size: 1vw;
+  font-style: italic;
+}
+#wevondLand4 span {
+  display: block
+}
+
+
+
+#wevondLand5Div1 {
+  background: linear-gradient(to right, #ff301e, #ff6801);
+  clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+  background-size: cover;
+  height: 200px
+}
+#wevondLand5Div2 {
+  background: linear-gradient(to right, #ff301e, #ff6801);
+  clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+  background-size: cover;
+  height: 150px
+}
+
+
+
+#wevondLand6{
+  height: 30vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#wevondLand6Text {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 3vw;
+}
+#wevondLand6Text span{
+  display:block
+}
+#wevondLand6Buttons{
+  margin-left: 10%;
+  font-size: 1.2vw;
+  text-align: center
+}
+#wevondLand6Buttons #div1{
+  margin-bottom: 20px;
+  background: linear-gradient(to top right, #ffa800,#ff381b);
+  border-radius: 3px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+#wevondLand6Buttons #div1 a{
+  width: 90%;
+  background: linear-gradient(to bottom left, #ffa800,#ff381b);
+  /* padding:25px; */
+  padding: 2.5vw;
+  border: 3px solid #fff;
+  text-decoration: none
+}
+
+#wevondLand6Buttons #div2{
+  margin-top: 20px;
+  background: linear-gradient(to bottom left, #ffa800,#ff381b);
+  border-radius: 3px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+#wevondLand6Buttons #div2 a{
+  width: 90%;
+  background: linear-gradient(to top right, #ffa800,#ff381b);
+  /* padding: 25px; */
+  padding: 2.5vw;
+  border: 3px solid #fff;
+  text-decoration: none
+}
+
+#wevondLand7 {
+  flex-shrink: 0;
+  height: 20vw;
+  background: #f0f0f0;
+  clip-path: polygon( 100% 100%, 100% 0,51% 50%, 0 0, 0 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center
+}
+#wevondLand7 .wevondLand7Img{
+  margin: 0 auto 40px auto;
+}
+
+#wevondLand7 img {
+  width: 13vw;
+}
+
+#wevondLand7 #wevondLand7List {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+#wevondLand7 ul li{
+  display: inline-block;
+  margin: 1vw;
+  padding: 10px;
+  width: 2vw;
+  height: 1.5vw;
+  text-align: center;
+  font-size: 1.5vw;
+  background: #555;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  #wevondLand2 #text1 {
+    font-size: 4vw;
+    margin-right: 20px;
+  }
+  #wevondLand2 #text2 {
+    font-size: 3vw;
+    margin-left: 20px;
+  }
+
+
+  #wevondLand3 {
+    height: 80vw;
+  }
+  #wevondLand3Div {
+    clip-path: polygon(50% 20%, 100% 10%, 100% 50%, 50% 60%, 0 50%, 0 10%);
+    height: 130vw;
+  }
+  #wevondLand3 img {
+    top:20px
+  }
+  #wevondLand3Text{
+    margin-top: 22vw;
+    width: 75%;
+  }
+  #wevondLand3Text #text1 {
+    font-size: 5vw;
+  }
+  #wevondLand3Text #text2, ul li {
+    font-size: 2vw;
+  }
+  
+  
+  #wevondLand4 img {
+    width: 40vw;
+  }
+  #wevondLand4Text{
+    width: 45%
+  }
+  #wevondLand4Text #text1{
+    font-size: 5vw;
+  }
+  #wevondLand4Text #text2,#text3 {
+    font-size: 1.9vw;
+  }
+
+
+  #wevondLand5Div1 {
+    position: relative;
+    top: 20px;
+    clip-path: polygon(50% 50%, 100% 10%, 100% 50%, 50% 90%, 0 50%, 0 10%);
+    height: 150px
+  }
+  #wevondLand5Div2 {
+    position: relative;
+    bottom: 20px;
+    clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+    height: 100px
+  }
+
+
+  #wevondLand6Text {
+    font-size: 5vw;
+  }
+  #wevondLand6Buttons{
+    margin-left: 5%;
+    font-size: 2vw;
+  }
 }
