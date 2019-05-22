@@ -92,7 +92,7 @@ body a {
   margin-right: 10vw;
 }
 #wevondLand2 #text2 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
   margin-left: 10vw;
 }
@@ -135,10 +135,10 @@ body a {
   font-size: 3vw;
   text-align: center;
 }
-#wevondLand3Text ul {
+#wevondLand3Text #list {
   align-self: flex-start
 }
-#wevondLand3Text #text2, ul li {
+#wevondLand3Text #text2, #list span {
   font-size: 1.5vw;
   text-align: left;
   font-style: italic;
@@ -174,8 +174,12 @@ body a {
   font-size: 2.5vw;
 }
 #text2,#text3 {
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-style: italic;
+}
+#text3 {
+  margin-top: 10px;
+  text-align: right
 }
 #wevondLand4 span {
   display: block
@@ -266,6 +270,7 @@ body a {
 }
 #wevondLand7 .wevondLand7Img{
   margin: 0 auto 40px auto;
+  width: 5vw
 }
 
 #wevondLand7 img {
