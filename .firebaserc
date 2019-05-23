@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "wevond-92b3d"
+  },
+  "targets": {
+    "wevond-92b3d": {
+      "hosting": {
+        "about": [
+          "about-vond-me"
+        ]
+      }
+    }
+  }
+}
