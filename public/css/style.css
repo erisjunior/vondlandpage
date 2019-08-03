@@ -1,15 +1,16 @@
-body{
+body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 body a {
-  color:#fff
+  color: #fff;
 }
 
-.bold, b{
-  font-weight: bold
+.bold,
+b {
+  font-weight: bold;
 }
 
 #topMenu {
@@ -27,15 +28,15 @@ body a {
   height: 2.5vw;
 }
 #topMenu a {
-  color:#fff;
-  padding: .7vw;
+  color: #fff;
+  padding: 0.7vw;
   font-size: 1vw;
-  transition: .5s;
+  transition: 0.5s;
   position: relative;
   margin-right: 150px;
   border-radius: 5px;
   text-decoration: none;
-  border: 1px solid #fff
+  border: 1px solid #fff;
   /* background: #ff6600; */
   /* font-weight: bold; */
   /* border: 2px solid rgba(255,255,255,.6); */
@@ -50,24 +51,25 @@ body a {
 
 #wevondLand1 {
   position: relative;
-  margin-bottom: -10vw
+  margin-bottom: -10vw;
 }
 #wevondLand1Div {
   height: 50vw;
-  background: url("../img/wevond-land_01.jpg") no-repeat center center;
+  background: url('../img/wevond-land_01.jpg') no-repeat center center;
   clip-path: polygon(50% 75%, 100% 50%, 100% 0, 0 0, 0 50%);
+  -webkit-clip-path: polygon(50% 75%, 100% 50%, 100% 0, 0 0, 0 50%);
   background-size: cover;
   /* height: 650; */
 }
 
 /* #waves{ */
-  /* top: -15vw;
+/* top: -15vw;
   height: 15vw;
   position: relative;
   background-size: cover;
   background: url("../img/detalhes-waves.png") no-repeat center center; */
-  /* top: -200px; */
-  /* height: 300px; */
+/* top: -200px; */
+/* height: 300px; */
 /* } */
 #wevondLand1 img {
   left: 0;
@@ -80,8 +82,6 @@ body a {
   /* max-width: 75%; */
 }
 
-
-
 #wevondLand2 {
   height: 30vw;
   display: flex;
@@ -90,7 +90,7 @@ body a {
   justify-content: center;
 }
 #wevondLand2 span {
-  display: block
+  display: block;
 }
 #wevondLand2 #text1 {
   font-size: 2.5vw;
@@ -102,8 +102,6 @@ body a {
   font-style: italic;
 }
 
-
-
 #wevondLand3 {
   height: 60vw;
   position: relative;
@@ -112,7 +110,8 @@ body a {
 #wevondLand3Div {
   height: 90vw;
   clip-path: polygon(50% 10%, 100% 0, 100% 50%, 50% 60%, 0 50%, 0 0);
-  background: url("../img/wevond-land_03.2.jpg") no-repeat center center;
+  -webkit-clip-path: polygon(50% 10%, 100% 0, 100% 50%, 50% 60%, 0 50%, 0 0);
+  background: url('../img/wevond-land_03.2.jpg') no-repeat center center;
   background-size: cover;
   /* height: 1700px; */
 }
@@ -129,11 +128,11 @@ body a {
   top: 0;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: flex-start
+  justify-content: center;
+  align-items: flex-start;
 }
 #wevondLand3Text span {
-  display:block;
+  display: block;
 }
 #wevondLand3Text #text1 {
   align-self: center;
@@ -141,9 +140,10 @@ body a {
   text-align: center;
 }
 #wevondLand3Text #list {
-  align-self: flex-start
+  align-self: flex-start;
 }
-#wevondLand3Text #text2, #list span {
+#wevondLand3Text #text2,
+#list span {
   font-size: 1.5vw;
   text-align: left;
   font-style: italic;
@@ -159,8 +159,6 @@ body a {
   top: -5vw;
 }
 
-
-
 #wevondLand4 {
   height: 45vw;
   display: flex;
@@ -172,44 +170,43 @@ body a {
   z-index: 99;
   width: 25vw;
 }
-#wevondLand4Text{
+#wevondLand4Text {
   text-align: right;
   width: 30%;
-  margin-bottom: 11vw
+  margin-bottom: 11vw;
 }
-#text1{
+#text1 {
   font-size: 2.5vw;
 }
-#text2,#text3 {
+#text2,
+#text3 {
   font-size: 1.2vw;
   font-style: italic;
 }
 #text3 {
   margin-top: 10px;
-  text-align: right
+  text-align: right;
 }
 #wevondLand4 span {
-  display: block
+  display: block;
 }
-
-
 
 #wevondLand5Div1 {
   background: linear-gradient(to right, #ff301e, #ff6801);
   clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+  -webkit-clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
   background-size: cover;
-  height: 200px
+  height: 200px;
 }
 #wevondLand5Div2 {
   background: linear-gradient(to right, #ff301e, #ff6801);
   clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+  -webkit-clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
   background-size: cover;
-  height: 150px
+  height: 150px;
 }
 
-
-
-#wevondLand6{
+#wevondLand6 {
   height: 70vw;
   display: flex;
   flex-direction: column;
@@ -222,8 +219,8 @@ body a {
 #wevondLand6Text {
   font-size: 3vw;
 }
-#wevondLand6Text span{
-  display:block
+#wevondLand6Text span {
+  display: block;
 }
 /* #wevondLand6Buttons{
   margin-left: 10%;
@@ -266,18 +263,17 @@ body a {
   text-decoration: none
 } */
 
-
-
 #wevondLand7 {
   height: 20vw;
   background: #f0f0f0;
-  clip-path: polygon( 100% 100%, 100% 0,51% 50%, 0 0, 0 100%);
+  clip-path: polygon(100% 100%, 100% 0, 51% 50%, 0 0, 0 100%);
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 51% 50%, 0 0, 0 100%);
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
-#wevondLand7 .wevondLand7Img{
+#wevondLand7 .wevondLand7Img {
   width: 5vw;
   margin-left: 50px;
   margin-bottom: 20px;
@@ -293,7 +289,7 @@ body a {
   justify-content: center;
   margin-right: 50px;
 }
-#wevondLand7 ul li{
+#wevondLand7 ul li {
   display: inline-block;
   margin: 1vw;
   padding: 10px;
@@ -305,8 +301,6 @@ body a {
   color: #fff;
   border-radius: 5px;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
   #topMenu a {
@@ -334,67 +328,82 @@ body a {
     margin-left: 20px;
   }
 
-
   #wevondLand3 {
     height: 95vw;
   }
   #wevondLand3Div {
     clip-path: polygon(50% 20%, 100% 10%, 100% 50%, 50% 60%, 0 50%, 0 10%);
+    -webkit-clip-path: polygon(
+      50% 20%,
+      100% 10%,
+      100% 50%,
+      50% 60%,
+      0 50%,
+      0 10%
+    );
     height: 135vw;
   }
   #wevondLand3 img {
-    top:20px
+    top: 20px;
   }
-  #wevondLand3Text{
+  #wevondLand3Text {
     margin-top: 25vw;
     width: 75%;
   }
   #wevondLand3Text #text1 {
     font-size: 5vw;
   }
-  #wevondLand3Text #text2, #list span {
+  #wevondLand3Text #text2,
+  #list span {
     font-size: 2.5vw;
   }
-  #wevondLand3Text  #text2 {
-    margin-top: -3vw
+  #wevondLand3Text #text2 {
+    margin-top: -3vw;
   }
-  
-  
+
   #wevondLand4 {
     height: 60vw;
   }
   #wevondLand4 img {
     width: 50vw;
   }
-  #wevondLand4Text{
-    width: 45%
+  #wevondLand4Text {
+    width: 45%;
   }
-  #wevondLand4Text #text1{
+  #wevondLand4Text #text1 {
     font-size: 5vw;
   }
   #wevondLand4Text #text2 {
     font-size: 3vw;
   }
 
-
   #wevondLand5Div1 {
     position: relative;
     top: 20px;
     clip-path: polygon(50% 50%, 100% 10%, 100% 50%, 50% 90%, 0 50%, 0 10%);
-    height: 150px
+    -webkit-clip-path: polygon(
+      50% 50%,
+      100% 10%,
+      100% 50%,
+      50% 90%,
+      0 50%,
+      0 10%
+    );
+    height: 150px;
   }
   #wevondLand5Div2 {
     position: relative;
     bottom: 20px;
     clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
-    height: 100px
+    -webkit-clip-path: polygon(50% 50%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+    height: 100px;
   }
 
   #wevondLand6Text {
     font-size: 5vw;
   }
 
-  #wevondLand7 ul li{
+  #wevondLand7 ul li {
     font-size: 3vw;
   }
 }
